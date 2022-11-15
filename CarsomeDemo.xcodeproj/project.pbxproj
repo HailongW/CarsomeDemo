@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		669D571DD3AE7FA53AF3BD14 /* libPods-CarsomeDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2B8A8D12AD40DCBFA96402 /* libPods-CarsomeDemo.a */; };
 		BC77FE392920D89E00FC02DF /* CarsomeDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC77FE382920D89E00FC02DF /* CarsomeDemoApp.swift */; };
 		BC77FE3B2920D89E00FC02DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC77FE3A2920D89E00FC02DF /* ContentView.swift */; };
 		BC77FE3D2920D89F00FC02DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC77FE3C2920D89F00FC02DF /* Assets.xcassets */; };
@@ -14,6 +15,10 @@
 		BC77FE4A2920D8A000FC02DF /* CarsomeDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC77FE492920D8A000FC02DF /* CarsomeDemoTests.swift */; };
 		BC77FE542920D8A000FC02DF /* CarsomeDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC77FE532920D8A000FC02DF /* CarsomeDemoUITests.swift */; };
 		BC77FE562920D8A000FC02DF /* CarsomeDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC77FE552920D8A000FC02DF /* CarsomeDemoUITestsLaunchTests.swift */; };
+		BC77FE632920F28900FC02DF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC77FE622920F28900FC02DF /* HomeView.swift */; };
+		BC77FE6B2920F37900FC02DF /* SellCarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC77FE6A2920F37900FC02DF /* SellCarView.swift */; };
+		BC77FE6F2920F43F00FC02DF /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC77FE6E2920F43F00FC02DF /* AccountView.swift */; };
+		BC77FE712920F48600FC02DF /* BrowseCarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC77FE702920F48600FC02DF /* BrowseCarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F2D9B1C362B94A6670E6616 /* Pods-CarsomeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarsomeDemo.release.xcconfig"; path = "Target Support Files/Pods-CarsomeDemo/Pods-CarsomeDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9F2B8A8D12AD40DCBFA96402 /* libPods-CarsomeDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarsomeDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC77FE352920D89E00FC02DF /* CarsomeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarsomeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC77FE382920D89E00FC02DF /* CarsomeDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsomeDemoApp.swift; sourceTree = "<group>"; };
 		BC77FE3A2920D89E00FC02DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +51,11 @@
 		BC77FE4F2920D8A000FC02DF /* CarsomeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarsomeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC77FE532920D8A000FC02DF /* CarsomeDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsomeDemoUITests.swift; sourceTree = "<group>"; };
 		BC77FE552920D8A000FC02DF /* CarsomeDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsomeDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BC77FE622920F28900FC02DF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BC77FE6A2920F37900FC02DF /* SellCarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellCarView.swift; sourceTree = "<group>"; };
+		BC77FE6E2920F43F00FC02DF /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		BC77FE702920F48600FC02DF /* BrowseCarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseCarView.swift; sourceTree = "<group>"; };
+		D3EDBD4477FF304DBDD19837 /* Pods-CarsomeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarsomeDemo.debug.xcconfig"; path = "Target Support Files/Pods-CarsomeDemo/Pods-CarsomeDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				669D571DD3AE7FA53AF3BD14 /* libPods-CarsomeDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +84,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A04387052E7E2043B7FBD6A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F2B8A8D12AD40DCBFA96402 /* libPods-CarsomeDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4327125E0C17E209279CB08 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3EDBD4477FF304DBDD19837 /* Pods-CarsomeDemo.debug.xcconfig */,
+				2F2D9B1C362B94A6670E6616 /* Pods-CarsomeDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BC77FE2C2920D89E00FC02DF = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +108,8 @@
 				BC77FE482920D8A000FC02DF /* CarsomeDemoTests */,
 				BC77FE522920D8A000FC02DF /* CarsomeDemoUITests */,
 				BC77FE362920D89E00FC02DF /* Products */,
+				B4327125E0C17E209279CB08 /* Pods */,
+				A04387052E7E2043B7FBD6A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +126,10 @@
 		BC77FE372920D89E00FC02DF /* CarsomeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BC77FE672920F33000FC02DF /* Account */,
+				BC77FE662920F32500FC02DF /* SellCar */,
+				BC77FE652920F2F500FC02DF /* BrowseCar */,
+				BC77FE642920F2E900FC02DF /* Home */,
 				BC77FE382920D89E00FC02DF /* CarsomeDemoApp.swift */,
 				BC77FE3A2920D89E00FC02DF /* ContentView.swift */,
 				BC77FE3C2920D89F00FC02DF /* Assets.xcassets */,
@@ -127,6 +163,38 @@
 			path = CarsomeDemoUITests;
 			sourceTree = "<group>";
 		};
+		BC77FE642920F2E900FC02DF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BC77FE622920F28900FC02DF /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BC77FE652920F2F500FC02DF /* BrowseCar */ = {
+			isa = PBXGroup;
+			children = (
+				BC77FE702920F48600FC02DF /* BrowseCarView.swift */,
+			);
+			path = BrowseCar;
+			sourceTree = "<group>";
+		};
+		BC77FE662920F32500FC02DF /* SellCar */ = {
+			isa = PBXGroup;
+			children = (
+				BC77FE6A2920F37900FC02DF /* SellCarView.swift */,
+			);
+			path = SellCar;
+			sourceTree = "<group>";
+		};
+		BC77FE672920F33000FC02DF /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				BC77FE6E2920F43F00FC02DF /* AccountView.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC77FE592920D8A000FC02DF /* Build configuration list for PBXNativeTarget "CarsomeDemo" */;
 			buildPhases = (
+				53CC373D6547B1A257373E2F /* [CP] Check Pods Manifest.lock */,
 				BC77FE312920D89E00FC02DF /* Sources */,
 				BC77FE322920D89E00FC02DF /* Frameworks */,
 				BC77FE332920D89E00FC02DF /* Resources */,
@@ -252,11 +321,40 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		53CC373D6547B1A257373E2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarsomeDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BC77FE312920D89E00FC02DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC77FE6F2920F43F00FC02DF /* AccountView.swift in Sources */,
+				BC77FE712920F48600FC02DF /* BrowseCarView.swift in Sources */,
+				BC77FE632920F28900FC02DF /* HomeView.swift in Sources */,
+				BC77FE6B2920F37900FC02DF /* SellCarView.swift in Sources */,
 				BC77FE3B2920D89E00FC02DF /* ContentView.swift in Sources */,
 				BC77FE392920D89E00FC02DF /* CarsomeDemoApp.swift in Sources */,
 			);
@@ -411,6 +509,7 @@
 		};
 		BC77FE5A2920D8A000FC02DF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3EDBD4477FF304DBDD19837 /* Pods-CarsomeDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -440,6 +539,7 @@
 		};
 		BC77FE5B2920D8A000FC02DF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F2D9B1C362B94A6670E6616 /* Pods-CarsomeDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -1,0 +1,6 @@
+module Pods_CarsomeDemo {
+  umbrella header "Pods-CarsomeDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

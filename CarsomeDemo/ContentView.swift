@@ -7,15 +7,31 @@
 
 import SwiftUI
 
+
+//some View  不透明类型
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        TabView {
+            HomeView().tabItem{
+                Label("HOME", systemImage: "person")
+            }
+            BrowseCarView().tabItem {
+                Label("BROWSECARS", systemImage: "book")
+            }
+            SellCarView().tabItem {
+                Label("SellCar", image: "star")
+            }
+            AccountView().tabItem {
+                Label("Account", image: "hand.thumbsup")
+            }
         }
-        .padding()
+//        VStack {
+//            Image(systemName: "globe")
+//                .imageScale(.large)
+//                .foregroundColor(.accentColor)
+//            Text("Hello, world!")
+//        }
+//        .padding()
     }
 }
 
