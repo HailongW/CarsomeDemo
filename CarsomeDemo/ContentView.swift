@@ -25,13 +25,6 @@ struct ContentView: View {
                 Label("Account", image: "hand.thumbsup")
             }
         }
-//        VStack {
-//            Image(systemName: "globe")
-//                .imageScale(.large)
-//                .foregroundColor(.accentColor)
-//            Text("Hello, world!")
-//        }
-//        .padding()
     }
 }
 

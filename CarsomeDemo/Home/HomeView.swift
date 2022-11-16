@@ -9,10 +9,9 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        VStack{
-            
-            
-            
+        VStack(alignment: .leading){
+            Text("Banner")
+            Text("Search Bar")
         }
     }
 }
