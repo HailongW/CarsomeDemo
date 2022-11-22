@@ -19,10 +19,10 @@ struct ContentView: View {
                 Label("BROWSECARS", systemImage: "book")
             }
             SellCarView().tabItem {
-                Label("SellCar", image: "star")
+                Label("SellCar", systemImage: "star")
             }
             AccountView().tabItem {
-                Label("Account", image: "hand.thumbsup")
+                Label("Account", systemImage: "hand.thumbsup")
             }
         }
     }
